@@ -5,22 +5,22 @@ import { SiGithub, SiLinkedin, SiTelegram } from 'react-icons/si'
 export const contacts: Contact[] = [
 	{
 		title: 'Telegram',
-		link: 'https://t.me/m4xx1k',
+		link: 'https://t.me/Sasha_PHP',
 		Icon: SiTelegram,
 	},
 	{
 		title: 'LinkedIn',
-		link: 'https://www.linkedin.com/in/maksym-fabin-29529b14b/',
+		link: 'https://www.linkedin.com/in/oleksandr-solovey-02a21a172/',
 		Icon: SiLinkedin,
 	},
 	{
 		title: 'GitHub',
-		link: 'https://github.com/m4xx1k',
+		link: 'https://github.com/SashaSolovey1',
 		Icon: SiGithub,
 	},
 	{
 		title: 'Email',
-		link: 'mailto:maxikfabin@gmail.com',
+		link: 'mailto:solo160103@gmail.com',
 		Icon: MdEmail,
 	},
 ]

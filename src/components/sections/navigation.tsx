@@ -6,7 +6,7 @@ export const NavigationSection = () => {
 		<nav className='py-10 flex justify-between items-center'>
 			<h2 className='text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2'>
 				{' '}
-				m4xx1k 👨🏼‍💻{' '}
+				sasha 👨🏼‍💻{' '}
 			</h2>
 			<ul className='flex gap-4 items-center'>
 				{contacts.map(social => (

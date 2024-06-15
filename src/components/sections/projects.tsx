@@ -3,19 +3,24 @@ import { cn } from '@/utils/cn'
 import Link from 'next/link'
 import { IconType } from 'react-icons'
 import {
-	SiExpress,
-	SiMaterialdesign,
-	SiMongodb,
-	SiNestjs,
-	SiNextdotjs,
+	SiPhp,
+	SiLaravel,
+	SiDocker,
+	SiSymfony,
+	SiWordpress,
+	SiJoomla,
+	SiVuedotjs,
 	SiNodedotjs,
-	SiPostgresql,
-	SiPrisma,
-	SiReact,
-	SiRedux,
-	SiTailwindcss,
-	SiTypescript,
+	SiMysql,
+	SiRedis,
+	SiUbuntu,
 } from 'react-icons/si'
+import {
+	DiYii,
+} from 'react-icons/di'
+import {
+	FaOpencart,
+} from 'react-icons/fa'
 
 export const ProjectsSection = () => {
 	return (
@@ -60,104 +65,68 @@ export const ProjectsSection = () => {
 
 const projects: Project[] = [
 	{
-		title: 'E-learning platform',
-		tech: [SiReact, SiRedux, SiNodedotjs, SiMongodb, SiExpress],
-		image: '/exellence.webp',
-		link: 'https://exellence.space',
+		title: 'Bookmaker site',
+		tech: [SiPhp, DiYii, SiRedis, SiUbuntu, SiVuedotjs, SiMysql, SiDocker, SiNodedotjs],
+		image: '/tweebet.webp',
+		link: '#',
 		features: [
-			'Contributed to a web platform for taking courses.',
-			'Developed forms for adding courses/lessons and implemented logic for lesson viewing.',
-			'Managed video control and question processing.',
-			'Used technologies like React, Redux-Toolkit, and SCSS.',
+			'Developed a simple and user-friendly design. Implemented it,\n' +
+			'adapted it for mobile devices, and integrated it with the Yii2\n' +
+			'framework.',
+			'Created a parser for leagues, events that works via API.',
+			'Configured and deployed the project on LNMP (Linux, Nginx, MySQL, PHP).',
 		],
 		background: 'bg-violet-500',
 	},
 	{
-		title: 'Crypto investment platform',
-		tech: [
-			SiReact,
-			SiRedux,
-			SiNodedotjs,
-			SiMongodb,
-			SiExpress,
-			SiMaterialdesign,
-		],
-		image: '/cryptoon.webp',
-		link: 'https://cryptoon.online',
+		title: 'Advertising Service Ad1',
+		tech: [SiPhp, DiYii, SiRedis, SiUbuntu, SiVuedotjs, SiMysql, SiDocker, SiNodedotjs],
+		image: '/ad1.webp',
+		link: 'https://www.ad1.media/',
 		features: [
-			'Utilized React, Redux-Toolkit, and Material-UI for frontend development.',
-			'Developed admin interfaces and managed large data displays using react-window.',
-			'Implemented graph visualization using recharts.',
-			'Created a cryptocurrency parser that scraped data every 15 minutes.',
+			'Developed a simple and user-friendly design. Implemented it,\n' +
+			'adapted it for mobile devices, and integrated it with the Yii2\n' +
+			'framework.',
+			'Created postback logic.',
+			'Solved numerous problems during project development.',
+			'Led a squad of 3 during some major tasks.',
 		],
 		background: 'bg-green-500',
 	},
 	{
-		title: 'Libriland',
-		tech: [
-			SiTypescript,
-			SiNextdotjs,
-			SiRedux,
-			SiNodedotjs,
-			SiMongodb,
-			SiExpress,
-		],
-		image: '/libriland.webp',
-		link: 'https://libriland.com',
+		title: 'Advertising Service Mobivion',
+		tech: [SiPhp, DiYii, SiMysql],
+		image: '/mobivion.webp',
+		link: 'https://mobivion.com',
 		features: [
-			'Worked on a reading platform, focusing on PDF display and forum development.',
-			'Implemented an admin interface for managing books.',
-			'Facilitated localization using i18n.',
-			'Leveraged technologies such as React, Redux-Toolkit, react-pdf, SCSS, and react-i18n.',
+			'Created action and postback logic.',
+			'Created API for interacting with AD1',
 		],
 		background: 'bg-blue-500',
 	},
 	{
-		title: 'Project Management System',
-		tech: [SiNextdotjs, SiTailwindcss, SiNodedotjs, SiMongodb, SiExpress],
-		image: '/projects.webp',
-		link: '#',
+		title: 'Car Import Service',
+		tech: [SiPhp, SiWordpress, SiMysql, SiUbuntu],
+		image: '/badzinger.webp',
+		link: 'https://badzingerauto.com/',
 		features: [
-			'Developed a web platform IN 3 DAYS for managing university projects using the MERN stack.',
-			'Utilized React, Tailwind CSS, React-hook-form, Node.js, Express.js, MongoDB, multer, and jwt.',
-			'Received positive feedback for delivering a fully functional project ahead of schedule.',
+			'Created numerous functions and actions for site improvement',
+			'Supported project for 6 month',
 		],
 		background: 'bg-rose-500',
 	},
 	{
-		title: 'Voting Telegram Web App',
-		tech: [
-			SiTypescript,
-			SiNextdotjs,
-			SiTailwindcss,
-			SiNestjs,
-			SiPostgresql,
-			SiPrisma,
-		],
-		image: '/vote.webp',
-		link: 'https://t.me/RepostVoteBot',
+		title: 'Comment app',
+		tech: [SiPhp, SiLaravel, SiRedis, SiUbuntu, SiVuedotjs, SiMysql, SiDocker, SiNodedotjs],
+		image: '/comment.webp',
+		link: '#',
 		features: [
-			'Developed a Telegram bot for voting for politicians of Uzbekistan using Nest.js and telegraf.',
-			'Created a Backend API using Nest.js, Prisma, and PostgresQL.',
-			'Designed an Admin interface using Next.js, tailwind, swr, react-hook-form, react-datetime, and react-dnd.',
-			'Developed a Web-App for Telegram using Next.js, swr, and axios.',
+			'Developed a simple Laravel + Vue.js app',
+			'Implemented websocket for real time communication',
+			'Implemented redis for cashing',
+			'Configured queues and events for site optimization',
 		],
 		background: 'bg-amber-500',
-	},
-	{
-		title: 'Expense Tracker',
-		tech: [
-			SiTypescript,
-			SiNextdotjs,
-			SiTailwindcss,
-			SiNestjs,
-			SiPostgresql,
-			SiPrisma,
-		],
-		image: '/mymoney.webp',
-		link: 'https://mymoney-two.vercel.app/',
-		features: [],
-		background: 'bg-[#5c85e7]',
 	},
 ]
 type Project = {

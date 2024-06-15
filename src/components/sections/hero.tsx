@@ -7,11 +7,11 @@ export const HeroSection = () => {
 				<h1 className='text-4xl lg:text-7xl font-bold'>
 					Nice to meet you 👋 <br />
 					<span className='underline underline-offset-8 decoration-green-500'>
-						I&apos;m Maksym!{' '}
+						I&apos;m Oleksandr!{' '}
 					</span>
 				</h1>
 				<p className='md:w-96 text-lg text-gray-300'>
-					Based in Lviv, I&apos;m a FullStack Developer passionate about
+					Based in Uzhhorod/Lviv, I&apos;m a FullStack Developer passionate about
 					building a modern web application that users love.
 				</p>
 			</div>

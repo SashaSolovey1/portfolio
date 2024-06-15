@@ -1,19 +1,24 @@
 'use client'
 import { HoverEffect, Title } from '@/components/ui/'
 import {
-	SiExpress,
-	SiMaterialdesign,
-	SiMongodb,
-	SiNestjs,
-	SiNextdotjs,
+	SiPhp,
+	SiLaravel,
+	SiDocker,
+	SiSymfony,
+	SiWordpress,
+	SiJoomla,
+	SiVuedotjs,
 	SiNodedotjs,
-	SiPostgresql,
-	SiPrisma,
-	SiReact,
-	SiRedux,
-	SiTailwindcss,
-	SiTypescript,
+	SiMysql,
+	SiRedis,
+	SiUbuntu,
 } from 'react-icons/si'
+import {
+	DiYii,
+} from 'react-icons/di'
+import {
+	FaOpencart,
+} from 'react-icons/fa'
 
 export const SkillsSection = () => {
 	return (
@@ -25,51 +30,55 @@ export const SkillsSection = () => {
 }
 const skills = [
 	{
-		text: 'TypeScript',
-		Icon: SiTypescript,
+		text: 'PHP',
+		Icon: SiPhp,
 	},
 	{
-		text: 'React',
-		Icon: SiReact,
+		text: 'Laravel',
+		Icon: SiLaravel,
 	},
 	{
-		text: 'Next.js',
-		Icon: SiNextdotjs,
+		text: 'Yii2',
+		Icon: DiYii,
 	},
 	{
-		text: 'Redux',
-		Icon: SiRedux,
+		text: 'Symfony',
+		Icon: SiSymfony,
 	},
 	{
-		text: 'TailwindCSS',
-		Icon: SiTailwindcss,
+		text: 'Wordpress',
+		Icon: SiWordpress,
 	},
 	{
-		text: 'MaterialUI',
-		Icon: SiMaterialdesign,
+		text: 'Opencart',
+		Icon: FaOpencart,
+	},
+	{
+		text: 'Joomla',
+		Icon: SiJoomla,
+	},
+	{
+		text: 'Vue.js',
+		Icon: SiVuedotjs,
 	},
 	{
 		text: 'Node.js',
 		Icon: SiNodedotjs,
 	},
 	{
-		text: 'Express.js',
-		Icon: SiExpress,
+		text: 'Mysql',
+		Icon: SiMysql,
 	},
 	{
-		text: 'Nest.js',
-		Icon: SiNestjs,
+		text: 'Redis',
+		Icon: SiRedis,
 	},
 	{
-		text: 'MongoDB',
-		Icon: SiMongodb,
+		text: 'LAMP',
+		Icon: SiUbuntu,
 	},
 	{
-		text: 'PostgreSQL',
-		Icon: SiPostgresql,
-	},
-	{
-		text: 'Prisma',
-		Icon: SiPrisma,
+		text: 'Docker',
+		Icon: SiDocker,
 	},
 ]
