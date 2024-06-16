@@ -68,7 +68,7 @@ const projects: Project[] = [
 		title: 'Bookmaker site',
 		tech: [SiPhp, DiYii, SiRedis, SiUbuntu, SiVuedotjs, SiMysql, SiDocker, SiNodedotjs],
 		image: '/tweebet.webp',
-		link: '#',
+		link: 'https://tweebet.com/',
 		features: [
 			'Developed a simple and user-friendly design. Implemented it,\n' +
 			'adapted it for mobile devices, and integrated it with the Yii2\n' +
